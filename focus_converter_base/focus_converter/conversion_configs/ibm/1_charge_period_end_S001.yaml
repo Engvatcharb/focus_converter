@@ -1,0 +1,4 @@
+plan_name: rename Created Time for ChargePeriodEnd
+conversion_type: rename_column
+column: Created Time
+focus_column: ChargePeriodEnd

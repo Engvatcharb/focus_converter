@@ -1,0 +1,7 @@
+# Use a lookup for third parties
+plan_name: Assign InvoiceIssuer
+conversion_type: static_value
+conversion_args:
+    static_value: IBM Cloud
+column: NA
+focus_column: InvoiceIssuer

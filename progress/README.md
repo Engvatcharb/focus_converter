@@ -31,6 +31,12 @@ Information about native support can be found here: https://azure.microsoft.com/
 
 ---
 
+#### IBM Cloud
+
+![alt text](ibm_progress_pie_chart.png)
+
+---
+
 #### Oracle Cloud
 
 ![alt text](oci_progress_pie_chart.png)

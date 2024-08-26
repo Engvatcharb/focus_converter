@@ -1,0 +1,4 @@
+plan_name: rename Instance ID to ResourceID
+conversion_type: rename_column
+column: Region
+focus_column: RegionId

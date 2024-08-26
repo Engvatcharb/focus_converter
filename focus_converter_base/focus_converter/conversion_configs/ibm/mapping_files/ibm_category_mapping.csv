@@ -1,0 +1,147 @@
+ResourceType,ServiceCategory
+containers-kubernetes,Compute
+is.instance,Compute
+power-iaas,Compute
+logdna,Management and Governance
+is.volume,Storage
+cloud-object-storage,Storage
+conversation,AI and Machine Learning
+sysdig-monitor,Management and Governance
+vmware-solutions,Compute
+dashDB,Databases
+cloudantNoSQLDB,Databases
+dashDB For Transactions,Databases
+discovery,AI and Machine Learning
+internet-svcs,Networking
+databases-for-postgresql,Databases
+is.bare-metal-server,Compute
+messagehub,Databases
+vmware.directorsite,Compute
+databases-for-mongodb,Databases
+automated-testing-and-monitoring-for-voice-and-chat,Other
+is-floating-ip,Networking
+databases-for-elasticsearch,Databases
+is.dedicated-host,Compute
+is.vpc,Compute
+hs-crypto,Security
+codeengine,Compute
+datacatalog,Management and Governance
+dizziondaas,Compute
+secrets-manager,Identity
+speech_to_text,AI and Machine Learning
+kms,Security
+lakehouse,Databases
+data-science-experience,AI and Machine Learning
+data-virtualization,Analytics
+consult-with-icg-wes,Business Applications
+directlink.connect,Networking
+databases-for-redis,Databases
+continuous-delivery,Developer Tools
+data-warehouse,Other
+pm-20,Analytics
+transit.gateway,Networking
+natural-language-understanding,AI and Machine Learning
+is.share,Storage
+logdnaat,Management and Governance
+dns-svcs,Other
+skytap,Compute
+directlink.dedicated,Networking
+container-registry,Compute
+is.snapshot,Storage
+databases-for-etcd,Databases
+dizzion-managed,Compute
+is.load-balancer,Networking
+databases-for-mysql,Databases
+vmware.vdc,Other
+compliance,Security
+wanclouds-inc-powervs-migration-as-a-service,Migration
+databases-for-enterprisedb,Databases
+messages-for-rabbitmq,Databases
+portworx,Other
+text_to_speech,AI and Machine Learning
+cyberstrong,Security
+language_translator,AI and Machine Learning
+datastage,Analytics
+IBMAnalyticsEngine,AI and Machine Learning
+knowledge-studio,AI and Machine Learning
+satellite,Multicloud
+quantum-computing,Compute
+is.vpn,Compute
+mqcloud,Databases
+is.vpn-server,Compute
+openpages,Business Applications
+dizzion-complete,Compute
+dizzion-flex,Compute
+SecureGateway,Identity
+AppID,Identity
+aiopenscale,AI and Machine Learning
+AppConnect,Developer Tools
+ibm-Cloud-platform-runtime,Compute
+px-backup,Compute
+wanclouds-custom-migration-as-a-service,Migration
+neuralseek,AI and Machine Learning
+APIConnect,Integration
+fnts-managed-services-for-powervs-cloud,Multicloud
+privileged-access-gateway,Identity
+databases-for-cassandra,Databases
+dreadnought,Other
+blockchain,Other
+sql-query,Analytics
+is.image,Networking
+sysdig-secure,Management and Governance
+komprise-intelligent-data-management-suite,Analytics
+code-assistant,AI and Machine Learning
+komprise-elastic-data-migration,Migration
+f5-networks-f5-big-ip-1g-best-w-ext-hsm-paygo-licensing-for-vpc,Compute
+functions,Compute
+apprapp,Developer Tools
+dizzion-digitalworkspaces-complete,Compute
+primaryio-protectio-managed-service,Other
+pmf-pl-prod-appserverdb,Migration
+event-notifications,Analytics
+hpvs,Compute
+data-product-hub,Analytics
+sdk-for-nodejs,Compute
+dizzion-complete-horizon,Compute
+liberty-for-java,Compute
+primaryio-hdm-cloud-connect-nsx-v-to-nsx-t,Migration
+logs,Management and Governance
+hyperp-dbaas-postgresql,Databases
+is.flow-log-collector,Networking
+first-national-technology-solutions-fnts-data-encryption,Networking
+akasiafinopsmodeler,AI and Machine Learning
+falconstor-software-storsafe-vtl-for-power,Security
+hyperp-dbaas-mongodb,Compute
+converlistics,Other
+minio,Storage
+pmf-pl-dev-appserverdb,Migration
+primaryio-protectio,Compute
+crushbank-crushbank,Business Applications
+primaryio-hdm-workload-migrator,Migration
+anycloud-365-backup,Storage
+iotf-service,Business Applications
+pmf-profsvc-remote,Business Applications
+qroc,Management and Governance
+3p-wanclds-draas-vpcplus,Networking
+education,Business Applications
+openwhisk,Compute
+bigipve-ltm,Other
+wanclouds-inc--vpc-coaas-vpc-cost-optimization-as-a-service-,Management and Governance
+tsp-bus4i-system-copy-migrate-23-for-power-i,Migration
+dotnet-core,Compute
+swift_buildpack,Compute
+dynamic-dashboard-embedded,Analytics
+insight-specialist-ltd--email-surveillance,Analytics
+insight-specialist-ltd--trade-surveillance,Analytics
+insight-specialist-ltd--msp-human-intelligence,AI and Machine Learning
+eticloud-secure-digital-agile-workplace,Multicloud
+compass,Integration
+api-bridge,Compute
+insight-specialist-ltd--stocks-and-crypto-intelligence,Analytics
+aisolved,AI and Machine Learning
+cloudsway-cdn-global,Business Applications
+is.private-path-service-gateway,Networking
+data-replication,Other
+is.endpoint-gateway,Networking
+dizzion-digitalworkspaces-managed,Compute
+mdm-oc,Business Applications

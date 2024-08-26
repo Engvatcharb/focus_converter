@@ -1,4 +1,5 @@
 from enum import Enum
+import io
 from typing import Iterable
 
 import polars as pl
@@ -64,10 +65,41 @@ class DataLoader:
 
     def load_csv(self) -> Iterable[pl.LazyFrame]:
         # reads csv from data path and returns a lazy object
+        # IBM Cloud CSV's contain multiple sections separated by `\n\n`. Data contained in the first section acts as meta data.
+        # To "normalize" the IBM Cloud CSV we duplicate the rows so that the data is concatenated for every row of the csv
 
-        yield pl.read_csv(
-            self.__data_path__, try_parse_dates=False, ignore_errors=True
-        ).lazy()
+        # Read the content of the file first to first figure out how many sections there are
+        with open(self.__data_path__, 'r') as f:
+            content = f.read()
+
+        # Split the CSV content into sections
+        sections = content.split('\n\n')
+
+        # Process the last section separately. Which contains the main content. In the case of a a traditional CSV this is what gets returned
+        df_last_section = pl.read_csv(
+            io.StringIO(sections[len(sections)-1]),
+            try_parse_dates=False,
+            ignore_errors=True,
+            truncate_ragged_lines=True
+        )
+
+        # For each section before the final section. Duplicate the rows and concatenate the data to the main content from the last section
+        for i in range(0, len(sections) - 1):
+            # Parse the new section
+            df_current_section = pl.read_csv(
+                io.StringIO(sections[i]),
+                try_parse_dates=False,
+                ignore_errors=True,
+                truncate_ragged_lines=True
+            )
+            # duplicate the data
+            df_current_section_repeated = df_current_section.select(pl.all().repeat_by(df_last_section.height).explode())
+
+            # Concatenate the data with the last section
+            df_last_section = pl.concat([df_current_section_repeated, df_last_section], how="horizontal")
+
+        yield df_last_section.lazy()
+
 
     def data_scanner(self) -> Iterable[pl.LazyFrame]:
         # helper function to read from different data formats and create an iterator of lazy frames

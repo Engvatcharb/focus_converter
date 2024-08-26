@@ -1,0 +1,4 @@
+plan_name: rename Account Owner ID to SubAccountID
+conversion_type: rename_column
+column: Account Owner ID
+focus_column: SubAccountId

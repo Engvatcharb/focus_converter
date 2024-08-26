@@ -1,0 +1,8 @@
+plan_name: Generate ServiceCategory for ibm data using a lookup.
+column: ResourceType
+conversion_type: lookup
+focus_column: ServiceCategory
+conversion_args:
+    reference_dataset_path: "conversion_configs/ibm/mapping_files/ibm_category_mapping.csv"
+    source_value: ResourceType
+    destination_value: ServiceCategory

@@ -1,7 +1,7 @@
 # FOCUS Converter
 
 The FOCUS Converter is a command-line utility to convert billing data files from popular public cloud providers,
-such as **Amazon Web Services**, **Microsoft Azure**, **Google Cloud** and **Oracle Cloud**, into the common
+such as **Amazon Web Services**, **Microsoft Azure**, **Google Cloud**, **IBM Cloud** and **Oracle Cloud**, into the common
 schema known as FOCUS. You can read the specification at [FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec].
 
 The converter is optimized for:
@@ -16,6 +16,7 @@ The converter is optimized for:
 * [Amazon Web Services]
 * [Google Cloud]
 * [Microsoft Azure]
+* [IBM Cloud]
 * [Oracle Cloud]
 
 Want to add your own? See [CONTRIBUTING.md]
@@ -88,6 +89,8 @@ We're excited to work together. Please see [CONTRIBUTING.md] for information on 
 [Google Cloud]: https://github.com/finopsfoundation/focus_converters/tree/master/focus_converter_base/focus_converter/conversion_configs/gcp
 
 [Microsoft Azure]: https://github.com/finopsfoundation/focus_converters/tree/master/focus_converter_base/focus_converter/conversion_configs/azure
+
+[IBM Cloud]: https://github.com/finopsfoundation/focus_converters/tree/master/focus_converter_base/focus_converter/conversion_configs/ibm
 
 [Oracle Cloud]: https://github.com/finopsfoundation/focus_converters/tree/master/focus_converter_base/focus_converter/conversion_configs/oci
 

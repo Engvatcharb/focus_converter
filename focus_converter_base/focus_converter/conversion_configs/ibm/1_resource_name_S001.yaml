@@ -1,0 +1,4 @@
+plan_name: rename Instance Name to ResourceName
+conversion_type: rename_column
+column: Instance Name
+focus_column: ResourceName

@@ -1,0 +1,5 @@
+plan_name: compute BillingPeriodEnd
+conversion_type: month_end
+column: BillingPeriodStart
+focus_column: BillingPeriodEnd
+

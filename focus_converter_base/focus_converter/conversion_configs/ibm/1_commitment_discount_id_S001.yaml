@@ -1,0 +1,4 @@
+plan_name: rename Discount ID to CommitmentDiscountID
+conversion_type: rename_column
+column: Discount ID
+focus_column: CommitmentDiscountId

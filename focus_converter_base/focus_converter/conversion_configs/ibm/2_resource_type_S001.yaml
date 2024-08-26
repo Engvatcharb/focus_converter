@@ -1,0 +1,9 @@
+plan_name: Get resource type from resource Id
+conversion_type: string_functions
+column: ResourceId
+focus_column: ResourceType
+conversion_args:
+    steps:
+        - operation_type: split
+          split_by: ":"
+          index: 4

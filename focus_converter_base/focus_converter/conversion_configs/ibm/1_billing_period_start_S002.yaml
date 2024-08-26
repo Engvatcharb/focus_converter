@@ -1,0 +1,4 @@
+plan_name: set BillingPeriodStart as UTC
+conversion_type: assign_utc_timezone
+column: BillingPeriodStart
+focus_column: BillingPeriodStart
