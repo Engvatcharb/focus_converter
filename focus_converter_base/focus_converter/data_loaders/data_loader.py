@@ -1,5 +1,5 @@
-from enum import Enum
 import io
+from enum import Enum
 from typing import Iterable
 
 import polars as pl
