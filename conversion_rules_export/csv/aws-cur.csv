@@ -1,6 +1,9 @@
 FOCUS Dimension,Transform Step,Source Column,Source Column Type,Transform Type,Filters/Process/Etc.
 BillingAccountName,0,Not Defined,Not Defined,Not Defined,Not Defined
 CommitmentDiscountName,0,Not Defined,Not Defined,Not Defined,Not Defined
+ContractedCost,0,Not Defined,Not Defined,Not Defined,Not Defined
+ContractedUnitPrice,0,Not Defined,Not Defined,Not Defined,Not Defined
+RegionName,0,Not Defined,Not Defined,Not Defined,Not Defined
 SubAccountName,0,Not Defined,Not Defined,Not Defined,Not Defined
 AvailabilityZone,1,lineItem/AvailabilityZone,Not Defined,RENAME_COLUMN,
 BilledCost,1,NA,Not Defined,SQL_CONDITION,"conditions:

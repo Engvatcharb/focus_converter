@@ -7,12 +7,15 @@
 | CommitmentDiscountId       |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | CommitmentDiscountName     |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | CommitmentDiscountType     |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
+| ContractedCost             |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
+| ContractedUnitPrice        |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | InvoiceIssuer              |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | ListCost                   |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | ListUnitPrice              |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | PricingCategory            |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | PricingQuantity            |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | Publisher                  |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
+| RegionName                 |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | ResourceName               |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | ResourceType               |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |
 | ServiceCategory            |                0 | Not Defined                 | Not Defined          | Not Defined         | Not Defined            |

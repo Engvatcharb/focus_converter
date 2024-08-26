@@ -33,6 +33,8 @@ class FocusColumnNames(Enum):
     EFFECTIVE_COST = "EffectiveCost"
 
     REGION = "RegionId"
+    # RegionName introduced in 1.0: https://focus.finops.org/focus-columns/?prod_focus_columns%5Bquery%5D=region&prod_focus_columns%5BrefinementList%5D%5Bcategories%5D%5B0%5D=Location#modal-column-14473
+    REGION_NAME = "RegionName"
 
     SERVICE_CATEGORY = "ServiceCategory"
     SERVICE_NAME = "ServiceName"
@@ -63,6 +65,11 @@ class FocusColumnNames(Enum):
 
     CONSUMED_QUANTITY = "ConsumedQuantity"
     CONSUMED_UNIT = "ConsumedUnit"
+
+    # ContractedCost introduced in 1.0: https://focus.finops.org/focus-columns/?prod_focus_columns%5Bquery%5D=Contracted#modal-column-14451
+    CONTRACTED_COST = "ContractedCost"
+    # ContractedUnitPrice introduced in 1.0: https://focus.finops.org/focus-columns/?prod_focus_columns%5Bquery%5D=Contracted#modal-column-14453
+    CONTRACTED_UNIT_PRICE = "ContractedUnitPrice"
 
 
 FOCUS_DATETIME_ISO_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
